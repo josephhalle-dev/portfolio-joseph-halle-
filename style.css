@@ -8,8 +8,8 @@
   --accent-soft: #e6eaff;
   --live: #1f9d63;
   --night: #16213f;
-  --serif: "Fraunces", Georgia, serif;
-  --sans: "Inter", system-ui, -apple-system, sans-serif;
+  --serif: "Newsreader", Georgia, serif;
+  --sans: "Hanken Grotesk", system-ui, -apple-system, sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
