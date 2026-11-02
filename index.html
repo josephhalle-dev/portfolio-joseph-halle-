@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Joseph Halle — Data, IA & Business</title>
+  <meta name="description" content="Portfolio de Joseph Halle, étudiant en Bachelor Data, Applied AI & Business à Eugenia School. Recherche de stage en conseil Data & IA.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a href="#top" class="brand">JH</a>
+    <nav>
+      <a href="#projets">Projets</a>
+      <a href="#competences">Compétences</a>
+      <a href="#planning">Planning</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <!-- Intro -->
+    <section class="hero wrap">
+      <p class="status"><span class="dot"></span>Recherche de stage · Conseil Data & IA</p>
+      <h1>Joseph Halle</h1>
+      <p class="lede">
+        Étudiant en <strong>Bachelor Data, Applied AI & Business</strong> à Eugenia School (Groupe Albert School).
+        Je construis des produits concrets — applications, sites, automatisations — pour comprendre
+        comment la data et l'IA créent de la valeur pour une entreprise.
+      </p>
+      <div class="actions">
+        <a class="btn primary" href="#projets">Voir mes projets</a>
+        <a class="btn" href="mailto:josephhalle@hotmail.com">Me contacter</a>
+      </div>
+      <dl class="facts">
+        <div><dt>École</dt><dd>Eugenia School, Paris</dd></div>
+        <div><dt>Année</dt><dd>Bachelor, 1<sup>re</sup> année</dd></div>
+        <div><dt>Basé à</dt><dd>Neuilly-sur-Seine</dd></div>
+      </dl>
+    </section>
+
+    <!-- Projets -->
+    <section id="projets" class="wrap section">
+      <header class="section-head">
+        <p class="eyebrow">01 — Projets</p>
+        <h2>Ce que j'ai construit</h2>
+      </header>
+
+      <article class="project">
+        <div class="project-visual boring">
+          <img src="assets/boring-mascot.png" alt="La mascotte de BORING, un lapin endormi sur un nuage" loading="lazy">
+        </div>
+        <div class="project-body">
+          <p class="tag">Application mobile · PWA</p>
+          <h3>BORING</h3>
+          <p class="pitch">Une application qui entraîne la concentration… en réapprenant à s'ennuyer.</p>
+          <dl class="case">
+            <div><dt>Le problème</dt><dd>On passe d'une stimulation à l'autre sans pause : notre tolérance à l'ennui — et donc notre capacité de concentration — s'effondre.</dd></div>
+            <div><dt>Ce que j'ai fait</dt><dd>Conçu et développé une app mobile installable : des « Boredom Sessions » chronométrées pendant lesquelles la navigation est verrouillée, un planning, un suivi de progression par niveau et une offre premium BORING+.</dd></div>
+            <div><dt>Ce que ça montre</dt><dd>Penser un produit de bout en bout : besoin utilisateur, parcours, design mobile, modèle freemium.</dd></div>
+          </dl>
+          <ul class="stack"><li>HTML / CSS / JS</li><li>PWA</li><li>Service Worker</li><li>localStorage</li></ul>
+        </div>
+      </article>
+
+      <article class="project">
+        <div class="project-visual teckel" aria-hidden="true">
+          <div class="mock">
+            <div class="mock-bar"><span></span><span></span><span></span></div>
+            <div class="mock-title">Le Bar à Teckels</div>
+            <div class="mock-kpis">
+              <div><b>64</b><small>couverts</small></div>
+              <div><b>82%</b><small>remplissage</small></div>
+              <div><b>3</b><small>alertes stock</small></div>
+            </div>
+            <div class="mock-bars"><i style="--h:40%"></i><i style="--h:65%"></i><i style="--h:55%"></i><i style="--h:90%"></i><i style="--h:75%"></i><i style="--h:30%"></i><i style="--h:60%"></i></div>
+          </div>
+        </div>
+        <div class="project-body">
+          <p class="tag">Site e-commerce · Projet en équipe</p>
+          <h3>Le Bar à Teckels</h3>
+          <p class="pitch">Le site complet d'un bar à teckels parisien : réservation, boutique et back-office.</p>
+          <dl class="case">
+            <div><dt>Le problème</dt><dd>Un lieu avec une capacité limitée (16 places par créneau) doit gérer réservations, ventes en ligne et stock sans surbooking.</dd></div>
+            <div><dt>Ce que j'ai fait</dt><dd>Réservation de créneaux en temps réel, boutique avec panier, espace client, et un espace pro avec tableau de bord : couverts du jour, taux de remplissage sur 7 jours, CA bar et boutique, alertes de stock, export CSV.</dd></div>
+            <div><dt>Ce que ça montre</dt><dd>Modéliser une base de données, sécuriser les accès (Row Level Security) et transformer des données métier en indicateurs de pilotage.</dd></div>
+          </dl>
+          <ul class="stack"><li>Next.js</li><li>Supabase</li><li>PostgreSQL</li><li>Tailwind CSS</li></ul>
+        </div>
+      </article>
+
+      <article class="project in-progress">
+        <div class="project-visual abotis" aria-hidden="true">
+          <svg viewBox="0 0 200 160" class="robot">
+            <rect x="60" y="28" width="80" height="58" rx="18" />
+            <circle cx="84" cy="57" r="7" class="eye" />
+            <circle cx="116" cy="57" r="7" class="eye" />
+            <rect x="50" y="94" width="100" height="44" rx="14" />
+            <circle cx="72" cy="142" r="9" class="wheel" />
+            <circle cx="128" cy="142" r="9" class="wheel" />
+            <line x1="100" y1="28" x2="100" y2="12" />
+            <circle cx="100" cy="10" r="4" class="eye" />
+          </svg>
+        </div>
+        <div class="project-body">
+          <p class="tag"><span class="live"></span>En cours · Mission pour une entreprise</p>
+          <h3>Abotis</h3>
+          <p class="pitch">Je crée actuellement le site web d'Abotis, une entreprise de robotique.</p>
+          <dl class="case">
+            <div><dt>Le contexte</dt><dd>Abotis vend et loue en leasing des robots de service et de nettoyage autonomes aux professionnels.</dd></div>
+            <div><dt>Ce que je fais</dt><dd>Un site vitrine B2B : catalogue de robots, pages par secteur d'activité, simulateur de ROI, offre de leasing et formulaire de contact — plus le design system de la marque.</dd></div>
+            <div><dt>Ce que ça montre</dt><dd>Travailler pour un vrai client : comprendre son offre, parler à ses acheteurs et livrer.</dd></div>
+          </dl>
+          <ul class="stack"><li>Next.js</li><li>TypeScript</li><li>Tailwind CSS</li><li>Design system</li></ul>
+        </div>
+      </article>
+    </section>
+
+    <!-- Compétences -->
+    <section id="competences" class="wrap section">
+      <header class="section-head">
+        <p class="eyebrow">02 — Compétences</p>
+        <h2>Ma boîte à outils</h2>
+      </header>
+      <div class="skills">
+        <div class="skill">
+          <h3>Data & analyse</h3>
+          <p>SQL, Python (Pandas, NumPy), exploration et nettoyage de données, modélisation relationnelle.</p>
+        </div>
+        <div class="skill">
+          <h3>IA & automatisation</h3>
+          <p>Prompt engineering, APIs LLM, workflows Make et Zapier, web scraping.</p>
+        </div>
+        <div class="skill">
+          <h3>BI & dataviz</h3>
+          <p>Power BI, tableaux de bord de KPI, Google Sheets et Excel avancés.</p>
+        </div>
+        <div class="skill">
+          <h3>Produit & web</h3>
+          <p>Next.js, Supabase, HTML/CSS/JS, maquettes et design systems.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Planning -->
+    <section id="planning" class="wrap section">
+      <header class="section-head">
+        <p class="eyebrow">03 — La suite</p>
+        <h2>Mon planning 2026 – 2027</h2>
+        <p class="sub">Une dizaine de hackathons pour finir l'année : autant de sprints de 24 à 48 h pour construire, pitcher et apprendre vite.</p>
+      </header>
+      <ol class="timeline" id="timeline"></ol>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="wrap section contact">
+      <p class="eyebrow">04 — Contact</p>
+      <h2>Un stage en conseil Data & IA&nbsp;? Parlons-en.</h2>
+      <div class="actions">
+        <a class="btn primary" href="mailto:josephhalle@hotmail.com">josephhalle@hotmail.com</a>
+        <a class="btn" href="https://www.linkedin.com/in/joseph-halle" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn" href="https://github.com/josephhalle-dev" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap footer">© 2026 Joseph Halle</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
